@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from datetime import datetime
 import re
 import numpy as np
-
+from data_loader import load_asset_data
 # تهيئة الصفحة
 st.set_page_config(
     page_title="النظام الذكي لإدارة الأصول",
